@@ -1,0 +1,77 @@
+body{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#back_button{
+    margin-right: 100%;
+    animation-name: ritu;
+    animation-duration: 3sec;
+    animation-iteration-count: infinite;
+background-position: center;
+background-size: cover;
+background-color: black;
+border-radius: 20px;
+}
+@keyframes ritu{
+    from{box-shadow: 5px 5px 5px yellow;}
+    to {box-shadow: 5px 5px 5px red;}
+}
+
+
+.heading{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #f2bf07;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 20px;
+    animation-name: toto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+ 
+
+
+}
+
+.h2{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #f2bf07;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 20px;
+    animation-name: toto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+ margin-bottom: 250px;
+
+
+}
+
+canvas{
+    background-color: black;
+    border-color: white;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+@keyframes toto {
+from{box-shadow: 5px 5px 5px yellow;}
+to { box-shadow: 5px 5px 5px red;}
+}
+
+
+
+
+
+
+
+
